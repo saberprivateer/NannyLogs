@@ -1,7 +1,7 @@
 {
-  "name": "angular-quickstart",
+  "name": "nanny-log",
   "version": "1.0.0",
-  "description": "QuickStart package.json from the documentation, supplemented with testing support",
+  "description": "An app to track the daily logs for your child's care",
   "scripts": {
     "build": "tsc -p src/",
     "build:watch": "tsc -p src/ -w",

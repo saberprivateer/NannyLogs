@@ -9,22 +9,22 @@ import { ParentNote }           from './parent-note.component';
 import { LogToolbar }	      	  from './log-toolbar.component';
 
 @NgModule({
-  imports:      [ 
-  	BrowserModule, 
-  	MaterialModule,
-  	FormsModule, 
+  imports:      [
+  BrowserModule,
+  MaterialModule,
+  FormsModule,
   ],
-  declarations: [ 
-  	AppComponent, 
-  	MaterialExample,
-    ParentNote,
-  	LogToolbar,
+  declarations: [
+  AppComponent,
+  MaterialExample,
+  ParentNote,
+  LogToolbar,
   ],
-  bootstrap:    [ 
-  	AppComponent, 
-  	MaterialExample,
-    ParentNote, 
-  	LogToolbar,
+  bootstrap:    [
+  AppComponent,
+  MaterialExample,
+  ParentNote,
+  LogToolbar,
   ],
   providers: [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
