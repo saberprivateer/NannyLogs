@@ -4,7 +4,7 @@ import { FormsModule }	                         from '@angular/forms';
 
 import { AppComponent }       	from './app.component';
 import { MaterialModule } 	    from '@angular/material';
-import { MaterialExample }     	from './material-example';
+import { ActivityCard }     	  from './activity-card.component';
 import { ParentNote }           from './parent-note.component';
 import { LogToolbar }	      	  from './log-toolbar.component';
 
@@ -16,13 +16,13 @@ import { LogToolbar }	      	  from './log-toolbar.component';
   ],
   declarations: [
   AppComponent,
-  MaterialExample,
+  ActivityCard,
   ParentNote,
   LogToolbar,
   ],
   bootstrap:    [
   AppComponent,
-  MaterialExample,
+  ActivityCard,
   ParentNote,
   LogToolbar,
   ],
