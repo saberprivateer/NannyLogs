@@ -6,4 +6,4 @@ import {Component} from '@angular/core';
   templateUrl: './log-toolbar.html',
   //styleUrls: ['./log-toolbar.css'],
 })
-export class LogToolbar {}
+export class LogToolbar { date = "April 4th" }
