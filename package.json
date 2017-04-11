@@ -34,6 +34,7 @@
     "@angular/router": "~4.0.0",
     "@angular/material": "~2.0.0-beta.3",
     "@angular/animations": "~4.0.0",
+    "@angular/flex-layout": "~2.0.0-beta.7",
     "angular-in-memory-web-api": "~0.3.0",
     "angular-material": "~1.1.0",
     "angular-animate": "~1.5.8",

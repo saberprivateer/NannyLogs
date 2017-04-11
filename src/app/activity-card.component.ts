@@ -5,5 +5,8 @@ import { Component } from '@angular/core';
   templateUrl: './activity-card.component.html',
 })
 
-export class ActivityCard { }
+export class ActivityCard {
+activity_icon = 'bib';
+activity_verb = 'I drank...';
+ }
 

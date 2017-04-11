@@ -1,5 +1,24 @@
-<md-card>
-  <md-card-header>
-  <md-icon class="example-icon">keyboard_arrow_right</md-icon>  
-  </md-card-header>
+<md-card style="padding:0px">
+	<md-card-content class="container"
+	fxLayout
+	fxLayout.xs="row"
+	style="padding: 5px;">
+	<img style="width:30px;height:30px;padding:5px;" src="app/images/{{activity_icon}}.png">
+	<div fxFlex layout = "column">
+		<i>{{activity_verb}}</i>
+		<div class="container"
+		fxLayout
+		fxLayout.xs="row">
+		<span style="margin-right: 10px" class="md-caption">12:30 am</span>
+		<span fxFlex class="md-caption"> description of the food so long that it spans multiple lines</span>
+	</div>
+	<div class="container"
+	fxLayout
+	fxLayout.xs="row">
+	<span style="margin-right: 10px" class="md-caption">12:30 am</span>
+	<span fxFlex class="md-caption"> description of the food so long that it spans multiple lines</span>
+</div>
+
+</div>
+</md-card-content>
 </md-card>
