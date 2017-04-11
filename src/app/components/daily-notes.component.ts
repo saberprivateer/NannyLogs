@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Activity }		from '../activity';
 
 @Component({
   selector: 'daily-notes',
@@ -6,6 +7,5 @@ import { Component } from '@angular/core';
 })
 
 export class DailyNotes {
-
  }
 

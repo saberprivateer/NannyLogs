@@ -1,11 +1,11 @@
-<md-card style="padding:0px">
+<md-card *ngFor = "let activity of activities" style="padding:0px">
 	<md-card-content class="container"
 	fxLayout
 	fxLayout.xs="row"
 	style="padding: 5px;">
-	<img style="width:30px;height:30px;padding:5px;" src="app/images/{{activity_icon}}.png">
+	<img style="width:30px;height:30px;padding:5px;" src="app/images/{{activity.activity_icon}}.png">
 	<div fxFlex layout = "column">
-		<i>{{activity_verb}}</i>
+		<i>{{activity.activity_verb}}</i>
 		<div class="container"
 		fxLayout
 		fxLayout.xs="row">
