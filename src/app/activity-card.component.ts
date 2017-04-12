@@ -1,23 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Activity } from './activity';
 import { ActivityService } from './services/activity.service';
 
 @Component({
-  selector: 'activity-card',
-  templateUrl: './activity-card.component.html',
-  providers: [ActivityService]
+	selector: 'activity-card',
+	templateUrl: './activity-card.component.html',
+	providers: [ActivityService]
 })
 
 export class ActivityCard {
-activities: Activity[];
-constructor(private activityService: ActivityService) { }
+	activities: Activity[];
+	constructor(private activityService: ActivityService) { }
 
-getActivities(): void {
-	this.activities = this.activityService.getActivities();
+	getActivities(): void {
+		this.activities = this.activityService.getActivities();
+	}
+
+	ngOnInit(): void {
+		this.getActivities();
+	}
+
 }
-
-ngOnInit(): void {
-	this.getActivities();
-}
-
- }

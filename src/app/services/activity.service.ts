@@ -8,7 +8,7 @@ export class ActivityService {
 	getActivities(): Activity[] {
 		return ACTIVITIES;
 	}
-//	getActivities(): Promise<Activity[]> {
-//		return Promise.resolve(ACTIVITIES);
-	}
+	// getActivities(): Promise<Activity[]> {
+		// return Promise.resolve(ACTIVITIES);
+	// }
 }

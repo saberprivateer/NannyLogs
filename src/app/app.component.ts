@@ -1,12 +1,9 @@
-import { Component, OnInit } 		from '@angular/core';
-import { Activity }					from './activity';
-import { ActivityService }			from './services/activity.service';
+import { Component } from '@angular/core';
 
 @Component({
 	selector: 'my-app',
 	templateUrl: './app.component.html',
-	providers: [ActivityService]
 })
-export class AppComponent  {
+export class AppComponent {
 
 }
