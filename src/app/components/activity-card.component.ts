@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Activity } from './activity';
-import { ActivityService } from './services/activity.service';
+import { ActivityService } from '../services/activity.service';
 
 @Component({
 	selector: 'activity-card',

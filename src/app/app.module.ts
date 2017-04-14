@@ -6,39 +6,42 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { MaterialModule } from '@angular/material';
-import { ActivityCard } from './activity-card.component';
-import { ParentNote } from './parent-note.component';
-import { LogToolbar } from './log-toolbar.component';
+import { DailyLogComponent } from './daily-log.component';
+import { ActivityCard } from './components/activity-card.component';
+import { ParentNote } from './components/parent-note.component';
+import { LogToolbar } from './components/log-toolbar.component';
 import { DailyNotes } from './components/daily-notes.component';
 
 @NgModule(
-{
-  imports:
+  {
+    imports:
     [
-    BrowserModule,
-    BrowserAnimationsModule,
-    MaterialModule,
-    FormsModule,
-    ReactiveFormsModule,
-    FlexLayoutModule,
-  ],
-  declarations: [
-    AppComponent,
-    ActivityCard,
-    ParentNote,
-    LogToolbar,
-    DailyNotes,
-  ],
-  bootstrap: [
-    AppComponent,
-    ActivityCard,
-    ParentNote,
-    LogToolbar,
-    DailyNotes,
-  ],
-  providers: [],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA],
+      BrowserModule,
+      BrowserAnimationsModule,
+      MaterialModule,
+      FormsModule,
+      ReactiveFormsModule,
+      FlexLayoutModule,
+    ],
+    declarations: [
+      AppComponent,
+      DailyLogComponent,
+      ActivityCard,
+      ParentNote,
+      LogToolbar,
+      DailyNotes,
+    ],
+    bootstrap: [
+      AppComponent,
+      DailyLogComponent,
+      ActivityCard,
+      ParentNote,
+      LogToolbar,
+      DailyNotes,
+    ],
+    providers: [],
+    schemas: [CUSTOM_ELEMENTS_SCHEMA],
 
-})
+  })
 
 export class AppModule { }

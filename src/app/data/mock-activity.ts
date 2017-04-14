@@ -1,4 +1,4 @@
-import { Activity } from '../activity';
+import { Activity } from '../components/activity';
 
 export const ACTIVITIES: Activity[] = [
 {activity_icon: 'bib', activity_verb: 'I ate...'},
